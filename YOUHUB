@@ -35,6 +35,8 @@
   [*] Playing test sound
 [ + Players ]
  [ • Players ]
+  [~,{Min:16,Default:16,Max:50}] Select Walkspeed
+  [°,false] Walkspeed
  [ • LocalPlayer ]
  [ • Body ]
 [ + Entities ]
