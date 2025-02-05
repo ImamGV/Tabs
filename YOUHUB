@@ -1,17 +1,38 @@
 [+] Added Tabs
 [•] Added Section
-[~] Added Slider
-[∆] Added Dropdown
-[°] Added Toggle
+[~,{}] Added Slider
+[^,{}] Added Dropdown
+[∆,{}] Added Multi Dropdown
+[°,...] Added Toggle
 [*] Added Button
 
 [ + Main ]
  [ • Death ]
+  [^,{"Revive","Lobby","Leave"}] Select on death
+  [°,false] Enabled death
  [ • Fast ]
+  [°,false] Fast doors
  [ • Reach ]
+  [°,false] Reach doors
+  [°,false] Reach
  [ • Prompt ]
+  [°,false] Through Interact
+  [°,false] Instance Interact
+  [°,false] Classic Interact
  [ • Automation ]
+  [°,false] Auto Breaker
+  [*] Auto Padlock Unlock
  [ • Alert ]
+  [∆,{
+   "Rush","Ambush","Blitz",
+   "A60","A120","Glitch Ambush",
+   "Gloombat Swarm","Glitch Rush","Eyes",
+   "Lookman","Jeff The Killer","Seek Chase"}] Select entity alert
+  [°,false] Alert entity
+  [°,false] Playing chat
+  [°,false] Playing sound
+  [~,{Min:5,Default:5,Max:10}] Volume alert
+  [*] Playing test sound
 [ + Players ]
  [ • Players ]
  [ • LocalPlayer ]
